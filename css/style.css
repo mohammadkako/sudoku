@@ -1,22 +1,12 @@
 html{
     font-size: 100%;
+    padding: 10rem;
 }
-main{
+main , .big-cubes{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    height: 30rem;
-    margin: 5rem;
+    aspect-ratio:1;
 }
-.big-cubes{
+.cube{
     border: solid 1px black;
-    grid-area: auto/auto;
-
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-}
-.small-cubes{
-    border: solid 1px black;
-    grid-area: auto/auto;
 }
